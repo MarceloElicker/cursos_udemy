@@ -1,0 +1,1 @@
+Cursos que estou realizando na Udemy, entre eles: Lógica de progração, HTML, CSS, JavaScript, Bootstrap, Apache, PHP, MySQL, jQuery, API com Slim Framewor, WorPress, ECMAScript... Desenvolvimento Web Completo.
