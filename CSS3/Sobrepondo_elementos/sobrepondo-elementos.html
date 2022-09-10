@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrepondo Elementos</title>
+
+    <style>
+        body{
+            border: 2px solid black;
+        }
+
+        .conteudo1{
+            border: 1px solid rgb(255, 1, 1);
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .conteudo2{
+            border: 1px solid rgb(21, 214, 47);
+            background-color: rgb(46, 165, 42);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 2;
+        }
+
+        .conteudo3{
+            border: 1px solid rgb(21, 34, 214);
+            background-color: rgb(58, 86, 165);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: 3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+        conteuo 1
+    </div>
+
+    <div class="conteudo2">
+        conteuo 2
+    </div>
+
+    <div class="conteudo3">
+        conteuo 3
+    </div>
+</body>
+</html>
