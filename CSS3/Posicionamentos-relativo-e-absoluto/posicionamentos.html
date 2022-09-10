@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posicionamentos (static, relative, absolute e fixed)</title>
+        <style>
+            body{
+                border: 2px solid rgb(0, 0, 0);
+            }
+
+            #container{
+                background-color: rgb(223, 238, 233);
+                width: 800px;
+                margin: auto;
+                padding: 10px;
+            }
+
+            h1{
+                border: 1px solid black;
+            }
+
+            p{
+                border: 1px solid black;
+                width: 300px;
+                position: static;
+            }
+
+            .relative{
+                border: 2px solid red;
+                position: relative;
+                /*top, right, bottom e left*/
+                top: 20px;
+                left: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Lorem ipsum dolor.</h1>
+            <p> P1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod sint non ratione rerum animi est totam. Aspernatur illum nemo, laudantium aperiam quam sint natus nobis minus, saepe est architecto tenetur!</p>
+            <p class="relative">P2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod sint non ratione rerum animi est totam. Aspernatur illum nemo, laudantium aperiam quam sint natus nobis minus, saepe est architecto tenetur!</p>
+            <p>P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod sint non ratione rerum animi est totam. Aspernatur illum nemo, laudantium aperiam quam sint natus nobis minus, saepe est architecto tenetur!</p>
+        </div>
+    </body>
+</html>

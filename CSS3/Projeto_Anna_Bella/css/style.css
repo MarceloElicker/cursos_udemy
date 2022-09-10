@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: repeat;
+}
+
+header,
+main,
+footer{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #c5c5b2;
+
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a{
+    color: #4b566a;
+    font-weight: 700;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s;
+}
+
+li a:hover{
+    text-decoration: underline rgb(255, 255, 255);
+    color: white;
+    border-radius: 10px;
+
+}
+
+main{
+    background-color: white;
+    padding: 10px 10px 50px 10px;
+}
+
+h1{
+    color: #828271;
+    padding: 30px 0px 20px;
+    font-size: 30px;
+}
+
+.p{
+    text-indent: 25px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.ipbli{
+    max-width: 90%;
+    padding: 20px 50px 20px 120px;
+    
+}
+
+footer{
+    background-color: rgb(119, 121, 122);
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
