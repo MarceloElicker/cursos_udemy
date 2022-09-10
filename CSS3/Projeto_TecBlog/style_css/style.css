@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "trebuchet ms", Helvetica, sans-serif;
+}
+
+/*definições gerais*/
+#container{
+    max-width: 920px;
+    margin: auto;
+}
+
+/*Header*/
+header{
+    background-color: orange;
+    text-align: center;
+    height: 150px;
+}
+
+.menu h2{
+    padding: 25px 5px 15px 5px;
+    font-size: 40px;
+}
+
+.branco{
+    color: white;
+}
+
+.menu a{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 10px 5px 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.menu a:hover{
+    background-color: rgb(255, 255, 254);
+    color: orange;
+    border-radius: 5px;
+}
+
+/*Main*/
+
+.clear{
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+h1,
+h2,
+p,
+a{
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#postagens{
+    width: 66%;
+    float: left;
+    padding: 10px 0 10px 0;
+}
+
+#postagens h1{
+    color: orange;
+}
+
+#menu-lateral{
+    width: 30%;
+    background-color: rgb(235, 226, 226);
+    float: right;
+}
+
+#menu-lateral h2{
+    background-color: #ccc;
+    margin: 20px 0 20px 0;
+}
+
+#menu-lateral p, #menu-lateral a{
+    font-size: 12px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
