@@ -1,0 +1,11 @@
+/*coteúdo de caixa*/
+
+body{
+    border: 1px solid black;
+}
+.conteudo{
+    margin: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    width: 150px;
+}

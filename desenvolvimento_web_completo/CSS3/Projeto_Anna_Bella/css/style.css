@@ -19,7 +19,7 @@ footer{
 }
 
 header{
-    background-color: rgb(119, 121, 122);
+    background-color: #c5c5b2;
 
 }
 
@@ -35,7 +35,8 @@ ul{
 }
 
 li a{
-    color: black;
+    color: #4b566a;
+    font-weight: 700;
     padding-right: 50px;
     text-align: center;
     text-decoration: none;
@@ -55,7 +56,7 @@ main{
 }
 
 h1{
-    color: rgb(119, 121, 122);
+    color: #828271;
     padding: 30px 0px 20px;
     font-size: 30px;
 }
@@ -75,9 +76,6 @@ h1{
 footer{
     background-color: rgb(119, 121, 122);
     height: 50px;
-}
-
-footer p{
     color: white;
     font-size: 20px;
     text-align: center;
