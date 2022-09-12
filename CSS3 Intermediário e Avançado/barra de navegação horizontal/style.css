@@ -1,0 +1,32 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 720px;
+}
+
+li a{
+
+    display: block;
+    width: 134px;
+    padding: 8px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: url(imagens/fundo-horizontal.png);
+    background-color: aqua;
+    border-left: 2px solid rgba(209, 199, 199, 0.589);
+    color: white;
+    transition: 1s;
+}
+
+li a:hover{
+    color: black;
+    background-image: none;
+    background-color: rgb(88, 235, 235);
+}
+
+.primeiro{
+    border-left: none;
+}
