@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Progração JavaScript</title>
+</head>
+<body>
+    <h1>Condicionais</h1>
+
+    <p>pedir para o usuário digitar dois numeros e mostrar uma mensagem se foi aprovado ou não, a nota de corte é 5.</p>
+
+    <script>
+        
+        //Fazer jogador 01 digitar um número
+        var jogador1 = prompt("Jogador 01 digite um número");
+        jogador1 = parseInt(jogador1);
+
+        //Fazer jogador 02 digitar outro número
+        var jogador2 = prompt("Jogador 02 digite um número");
+        jogador2 = parseInt(jogador2);
+
+        //Se forem iguais, mostrar mensagem de empate
+        if(jogador1 === jogador2){
+            alert("O jogado terminou empatado!")
+        }else{
+
+            //Sortear um número entre 0 e 1
+        var sorteio = parseInt(Math.random() * 2);
+        //Se o número sorteado for 0, ganha quem escolher o número MENOR
+        if((sorteio === 0 && jogador1 < jogador2) || (sorteio === 1 && jogador1 > jogador2)){
+                alert("Jogador 1 ganou!")
+            }else{
+                alert("Jogador 2 ganhou!")
+            }};
+        
+        
+
+    </script>
+
+
+</body>
+</html>
