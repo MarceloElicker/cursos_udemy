@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px solid rgb(230, 27, 27);
+}
+
+ul{
+    border: 1px solid black;
+    list-style: none;
+    width: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    width: 143px;
+    padding: 10px 5px 10px 5px;
+    background-color: orange;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 0px 3px 0px black;;
+    transition: 1s;
+}
+
+li a:hover{
+    background-color: orangered;
+    color: orange;
+}
+
+#atual a{
+    background-color: orangered;
+    border-radius: 15px 15px 0px 0px;
+}
