@@ -5,26 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/**Generic Style**/
 body{
+
     font-family: "trebuchet ms", Helvetica, sans-serif;
     background-image: url(../imagens/fundo.png);
     background-repeat: repeat-x;
 }
 
-#container{
+h1{
+    font-size: 22px;
+    background-color: #294C71;
+    color: white;
+    padding: 5px;
+}
+
+h2{
+    display: block;
+    width: 80%;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgb(187, 52, 52);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h2:hover{
+    color: black;
+}
+
+p{
+    padding: 5px;
+    font-weight: 500;
+}
+
+a{
+    padding: 5px;
+}
+
+.container{
     width: 750px;
     margin: auto;
-    border: 1px solid red;
     position: relative;
 }
 
+/**Header Style**/
 #topo{
     height: 175px;
     background-image: url(../imagens/detalhe-topo.png);
     background-repeat: no-repeat;
     background-position: right top;
-    padding-top: 25px;
+    
 }
 
 .logo{
@@ -33,7 +67,6 @@ body{
 }
 
 #menu{
-    border: 1px solid orange;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -46,7 +79,6 @@ body{
 }
 
 #menu a{
-    border: 1px solid rgb(27, 24, 18);
     display: block;
     width: 92px;
     text-decoration: none;
@@ -54,10 +86,172 @@ body{
     margin-bottom: 20px;
     padding: 10px 5px 10px 5px;
     background-color: rgb(187, 52, 52);
+    border-left: 1px solid rgb(155, 23, 34);
     transition: 1s;
     cursor: pointer;
 }
 
 #menu a:hover{
     background-color: rgb(155, 23, 34);
+}
+
+#bordanone{
+    border: none;
+}
+
+/**Main Style**/
+
+/**Section 1 Style**/
+.conteudo{
+    margin-top: 60px;
+}
+
+.brasil{
+    float: right;
+    width: 70%;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+.brasil img{
+    width: 60%;
+    padding: 5%;
+    margin-left: 70px;
+}
+
+#entrevista{
+    float: left;
+    width: 24%;
+    margin-right: 20px;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+#entrevista ul{
+    list-style: none;
+    padding: 20px 0;
+}
+
+#entrevista ul a{
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+#entrevista ul a:hover{
+    color: #a1a1a1;
+    background-image: url(../imagens/marcador.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: 10px;
+}
+
+#ultima-entrevista{
+    float: left;
+    width: 35%;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+#ultima-entrevista img{
+    width: 100%;
+    padding: 5%;
+}
+
+#destaque{
+    float: right;
+    width: 35%;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+#destaque img{
+    width: 100%;
+    padding: 5%;
+}
+
+/**Section 2 Style**/
+
+#clear{
+    clear: both;
+}
+
+#news{
+    float: left;
+    width: 24%;
+    margin-right: 20px;
+    margin-top: -30PX;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+#news form{
+    padding: 10px 0 10px;
+}
+
+#news form input{
+    margin-bottom: 10px;
+    padding: 10px 0 10px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+#btn{
+    background-color: rgb(155, 23, 34);
+    color: white;
+    width: 120px;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #294C71;
+}
+
+#mundo{
+    float: left;
+    width: 35%;
+    position: relative;
+    margin-top: -100PX;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+#not-recentes{
+    float: right;
+    width: 35%;
+    position: relative;
+    margin-top: -100PX;
+    background-image: url(../imagens/fundo-caixa.png);
+}
+
+img{
+    width: 38%;
+    padding: 5px 2px 0;
+}
+
+.absolute{
+width: 60%;
+margin-top: -67PX;
+margin-left: 100PX;
+}
+
+.absolute h3{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #294c71;
+}
+
+.absolute p{
+    font-size: 13px;
+}
+
+footer{
+    background-image: url(../imagens/fundo.png);
+    background-repeat: repeat-x;
+    height: 80px;
+    background-position: bottom;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
 }
