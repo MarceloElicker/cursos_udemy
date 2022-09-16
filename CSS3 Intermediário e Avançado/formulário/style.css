@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgb(255, 255, 255), rgb(186, 34, 224), rgb(133, 30, 124), rgb(112, 28, 105),rgb(99, 23, 92), rgb(250, 246, 0));
+}
+
+#dados{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 250px;
+    
+}
+
+img{
+    width: 250px;
+    margin: auto;
+    margin-top: -160px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: -73px;
+}
+
+input{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#logar{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: orange;
+    background-image: linear-gradient(to bottom, #faa600, #d67b04);
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    
+}
