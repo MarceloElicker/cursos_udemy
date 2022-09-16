@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "trebuchet ms", Helvetica, sans-serif;
+    background-image: url(../imagens/fundo.png);
+    background-repeat: repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: auto;
+    border: 1px solid red;
+    position: relative;
+}
+
+#topo{
+    height: 175px;
+    background-image: url(../imagens/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+}
+
+#menu{
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -60px;
+    
+}
+
+#menu a{
+    border: 1px solid rgb(27, 24, 18);
+    display: block;
+    width: 92px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(187, 52, 52);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    background-color: rgb(155, 23, 34);
+}
