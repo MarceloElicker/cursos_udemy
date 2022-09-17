@@ -1,0 +1,186 @@
+/***DEFINIÇÔES GERAIS***/
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: url(../imagens/bg.png);
+    margin: 15px;
+}
+
+.container{
+    background-color: #edcc99;
+    margin: auto;
+    min-width: 690px;
+    max-width: 1080px;
+}
+/***HEADER***/
+#topo{
+    position: relative;
+    background-color: #dbcd87;
+    height: 15.4em;
+    min-height: 250px; 
+}
+
+#area-logo{
+    position: absolute;
+    background-image: url(../imagens/topo-imagem-principal.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#area-logo a{
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+#area-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../imagens/topo-imagem-lateral.png);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    z-index: 1;
+}
+
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+
+}
+
+#menu-locais{
+    border-bottom: 1px solid#b5ab56;
+    border-top: 1px solid#b5ab56;;
+    padding: 10px 0 10px;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+#menu-locais a{
+    text-decoration: none;
+    margin-left: 62px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: #a29750;
+    color: #fff5b0;
+}
+
+#menu{
+    margin-top: 15px;
+}
+
+#navegação{
+    float: left;
+}
+
+#navegação a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+#navegação a:hover{
+    background-color: #fdf6be;
+}
+
+.mensagem{
+    float: right;
+}
+
+/***MAIN***/
+
+#texto{
+    float: left;
+    width: 50%;
+    background-image: url(../imagens/bg-area-principal.png);
+    position: top left;
+    background-repeat: repeat-x;
+    padding: 15px 0;
+}
+
+#menu-opções{
+    float: right;
+    width: 50%;
+    background-color: rgb(209, 209, 209);
+    background-image: url(../imagens/bg-area-lateral.png);
+    position: top left;
+    background-repeat: repeat-x;
+    padding: 20px 0;
+}
+
+#menu-opções li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 7em;
+    transition: 1s;
+}
+
+#menu-opções li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#menu-opções li a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+}
+
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+p{
+    font-size: 1em;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
+
+img{
+    width: 150px;
+    float: left;
+    margin-right: 8px;
+}
+
+
+
+.conteudo{
+    margin: auto;
+    width: 90%;
+}
+
+footer{
+    clear: both;
+    padding: 16px;
+    background-image: url(../imagens/bg-rodape.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    color: #7d7640;
+    text-align: center;
+}
