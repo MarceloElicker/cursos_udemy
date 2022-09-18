@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Container</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        article{
+            border: 2px solid blue;
+        }
+
+        #conteudo{
+            border: 2px solid rgb(255, 0, 0);
+            background: #b4b4b4;
+            height: 400px;
+            display: flex;
+            /*flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: stretch;*/
+        }
+
+        .item{
+            border: 2px solid gray;
+            background: white;
+            height: 100px;
+           /* width: 300px;*/
+        }
+
+        .a{
+            flex-shrink: 1;
+            flex-basis: auto;
+        }
+
+        .b{
+            flex-shrink: 2;
+            flex-basis: 300PX;
+        }
+
+     /*   .a{
+            flex-grow: 1;
+        }
+
+        .b{
+            flex-grow: 2;
+        }*/
+        
+       
+        </style>
+
+</head>
+<body>
+    <article>
+        <h1>Flexbox</h1>
+        <div id="conteudo"><!--Conteudo PAI-->
+            <div class="item a">Conteudo FILHO 01</div><!--Conteudo FILHO-->
+            <div class="item b">Conteudo FILHO 02</div><!--Conteudo FILHO-->
+            <div class="item c">Conteudo FILHO 03</div><!--Conteudo FILHO-->
+            <div class="item d">Conteudo FILHO 04</div><!--Conteudo FILHO-->
+        </div>
+    </article>
+
+    
+
+    
+</body>
+</html>
